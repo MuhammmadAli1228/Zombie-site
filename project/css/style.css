@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-container{
+  width: 100%;
+  height: 10vh;
+  background-color: #333;
+  display: flex;
+  color: #FFF;
+  justify-content: space-between;
+  font-family: sans-serif;
+  position: fixed;
+  scroll-behavior: smooth;
+}
+header{
+  margin-left: 30px;
+}
+
+header,ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+li{
+  padding: 10px;
+  margin-right: 40px;
+}
+li a{
+  color: #FFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+  color: #f45;
+}
+
+/* 2 */
+.bg-container{
+  background-image: url(/img/background.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-container .text h1{
+  font-size:40px;
+}
+.bg-container .text{
+  color: #fff;
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+ font-weight: 700;
+ font-family: sans-serif;
+ text-align: center;
+ animation: example 5s ease-in-out infinite;
+
+}
+@keyframes example {
+  0%{
+    color: gold;
+    font-family: monospace;
+    
+  }
+  50%{
+    color: rgb(115, 255, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  100%{
+    color: rgb(0, 255, 255);
+    font-family: fantasy;
+    
+  }
+}
+.text p{
+  line-height: 27px;
+}
+
+/* about */
+.about{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  background: #000;
+  color: #FFF;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+}
+
+.card-1{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 35px;
+  background: #000;
+  color: #FFF;
+}
+.card-1 .text-left img{
+  width: 700px;
+  transition: transform .5s ease-in-out;
+  cursor: pointer;
+}
+.text-left img:hover{
+  transform: scale(1.1);
+}
+
+/* movie */
+.zombie-product{
+  background: #000;
+  color: #FFF;
+  text-align: center;
+  font-size: 40px;
+}
+.films .text-left iframe{
+  width: 800px;
+}
+/* game  */
+.zombi-game h1{
+  text-align: center;
+  background: #000;
+  color: #FFF;
+  font-size: 50px;
+}
+/* footer */
+.footer{
+  width: 100%;
+  height: 70vh;
+  background: #000;
+  color: #FFF;
+  text-align: center;
+}
+.footer p{
+  margin-top: 50px;
+  border-top: 1px solid rgb(109, 84, 84);
+  font-size: 30px;
+}
+.footer input{
+  width: 30%;
+  height: 5vh;
+  border: 3px solid #FFF;
+}
+.footer button{
+  width: 5%;
+  height: 5.1vh;
+  position: relative;
+  left: -5%;
+
+
+  color: rgb(0, 0, 0);
+
+}
+.footer i{
+  font-size: 40px;
+  cursor: pointer;
+
+}
+.footer .react{
+  color: rgb(32, 69, 235);
+}
+.footer .vue{
+  color: rgb(52, 255, 69);
+}
+.footer .blaze{
+  color: blueviolet;
+}
+ .show{
+  color: red;
+}
+.current{
+  color: #f45;
+}
